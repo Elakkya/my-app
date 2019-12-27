@@ -1,20 +1,9 @@
+    
 pipeline {
     agent any
     stages {
-        stage('---clean---') {
+        stage('Start') {
             steps {
-                sh "mvn clean"
+               echo "Holla"
             }
         }
-        stage('--test--') {
-            steps {
-                sh "mvn test"
-            }
-        }
-        stage('--package--') {
-            steps {
-                sh "mvn package"
-            }
-        }
-    }
-}
