@@ -7,3 +7,5 @@ pipeline {
                echo 'Holla Amigo'
             }
         }
+    }
+}
